@@ -1,0 +1,29 @@
+## Summary
+Developed a subtheme sentiment analysis system to extract and analyze sentiments related to specific subthemes in customer reviews. The system includes preprocessing steps, advanced pronoun resolution, and unique sentiment reporting to provide actionable insights.
+This project was an assignment to get shortlisted for an internship opportunity at arakoo.ai.
+
+## Explanation/Approach:
+
+* Text Preprocessing: The input text is preprocessed using techniques such as tokenization, stopword removal, and lemmatization to standardize the data.
+* Subtheme Extraction: Subthemes are extracted from the reviews to identify key topics.
+* Sentiment Analysis: Sentiments for each sentence are analyzed to determine the emotional tone.
+* Pronoun Resolution: An algorithm resolves pronouns to ensure sentiments are accurately assigned to the correct subthemes.
+* Unique Sentiment Reporting: The system outputs unique subtheme sentiments by removing duplicates and maintaining the first occurrence.
+
+## Motivation:
+
+* Task Requirement: The task required a systematic approach to extract subthemes and sentiments from customer reviews, guiding the choice of this approach.
+* Accuracy Consideration: Advanced pronoun resolution and unique sentiment reporting were chosen to enhance the accuracy and reliability of the sentiment analysis results.
+* Interpretability: The approach aimed to provide clear and interpretable results, enabling businesses to understand customer feedback effectively.
+
+# Ideas for Improvements
+
+* Enhanced Pronoun Resolution: Implementing a more sophisticated coreference resolution system, such as neural coreference resolution models, to improve pronoun handling.
+* Contextual Sentiment Analysis: Integrating contextual sentiment analysis models (e.g., BERT-based sentiment analysis) to better capture nuances in the text.
+* Real-Time Processing: Developing the system to handle real-time data for immediate sentiment insights.
+
+# Possible Problems with Chosen Approach
+
+* Pronoun Resolution Accuracy: The current pronoun resolution algorithm might not handle complex sentences or nested pronouns effectively, leading to incorrect sentiment assignments.
+* Subtheme Identification: Reliance on predefined subthemes could miss out on emerging topics or context-specific subthemes not included in the list.
+* Sentiment Analysis Limitations: Basic sentiment analysis models might not capture complex sentiment expressions, such as sarcasm or mixed sentiments within a single sentence.
