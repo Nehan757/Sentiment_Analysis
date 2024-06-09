@@ -1,0 +1,4 @@
+python==3.10
+spacy==3.7.4
+transformers==4.39.3
+nltk==3.8.1
