@@ -1,5 +1,4 @@
 ## Summary
-
 Developed a subtheme sentiment analysis system to extract and analyze sentiments related to specific subthemes in customer reviews. The system includes preprocessing steps, advanced pronoun resolution, and unique sentiment reporting to provide actionable insights.
 This project was an assignment to get shortlisted for an internship opportunity at arakoo.ai.
 
